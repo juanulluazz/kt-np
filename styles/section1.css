@@ -1,6 +1,7 @@
 .main-superior {
 	
-	background-image: url("../img/main-sup-bg.jpeg")
+	background-image: url("../img/main-sup-bg.jpeg");
+	background-size: cover;
 
 }
 
@@ -10,7 +11,7 @@
 	justify-content: center;
 	width: 85%;
 	margin: auto;
-	height: 30vh;
+	height: 34vh;
 }
 
 .contenedor-h2 h2 {
@@ -21,7 +22,7 @@
 }
 
 .contenedor-btn {
-	height: 30vh;
+	height: 25vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -42,7 +43,7 @@
 
 .main-inferior {
 	background-color: #00913c;
-	height: 30vh;
+	height: 25vh;
 }
 
 .contenedor-p {
@@ -62,4 +63,9 @@
 	text-align: center;
 	
 
+}
+
+.contenedor-p p span {
+	color: #fbf117;
+	font-weight: bold;
 }
