@@ -1,5 +1,5 @@
 .main-superior {
-	min-height: 50vh;
+	
 	background-image: url("../img/main-sup-bg.jpeg")
 
 }
@@ -8,19 +8,20 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 90%;
+	width: 85%;
 	margin: auto;
-	height: 25vh;
+	height: 30vh;
 }
 
 .contenedor-h2 h2 {
 	text-align: center;
 	font-weight: 600;
-	font-size: 24px;
+	font-size: 25px;
+	padding-top: 20px;
 }
 
 .contenedor-btn {
-	height: 25vh;
+	height: 30vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -37,4 +38,28 @@
 	font-size: 24px;
 	font-weight: 700;
 	padding: 10px;
+}
+
+.main-inferior {
+	background-color: #00913c;
+	height: 30vh;
+}
+
+.contenedor-p {
+	width: 85%;
+	margin: 0 auto;
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.contenedor-p p {
+	margin: 0;
+	color: black;
+	font-size: 20px;
+	font-weight: 400;
+	text-align: center;
+	
+
 }
