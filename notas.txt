@@ -1,0 +1,24 @@
+Global
+
+Bootstrap 5.1
+colorPrimario: #00913C
+colorSecundario: #FBF117
+textColor: black, white
+
+Estructura
+
+5 secciones, cada una con 100vh
+
+** SECCIÓN 1: **
+
+* HEADER
+
+desktop
+
+width: 100%
+height: 96px
+
+mobile
+
+height: 76px
+

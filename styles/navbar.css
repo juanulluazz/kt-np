@@ -1,0 +1,98 @@
+/* Decidí que voy a utilizar display grid en lugar de display flex porque me permite mover más facimente las columnas (las cuales varían según la resolución vertical del dispositivo. Me encargaré de explicar detalladamente como funcionan por si en algún futuro se desea reutilizar o modificar) */
+
+
+header {
+	background-color: #00913c;
+	height: 76px;
+}
+
+
+.header-container {
+	height: 100%;
+	width: 90%;
+	margin: 0 auto;
+	display: grid;
+	align-items: center;
+	position: relative;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* Tamaño y ubicacion del logo */
+
+.header-container img {
+	display: block;
+	max-height: 100%;
+	position: absolute;
+	top: 0;
+}
+
+.header-container a {
+	margin: 0;
+	justify-content: center;
+	font-size: 24px;
+	display: flex;
+	height: 100%;
+
+}
+
+
+/* Distribución resolución telefono */
+
+.header-a-inicio {
+	grid-column: 1;
+}
+
+.header-logo {
+	grid-column: 2;
+	display: flex;
+	justify-content: center;
+}
+
+.header-contacto {
+	grid-column; 3;
+}
+
+.header-a-usos {
+	visibility: hidden;
+}
+
+
+
+@media (min-width: 1024px) {
+	header {
+		height: 96px;
+	}
+	.header-container {
+			grid-template-columns: 1fr 1fr 1fr 1fr;
+			align-items: center;
+			width: 100%;
+			max-width: 975px;
+
+	}
+
+	/* Distribución para resolución desktop */
+	.header-logo {
+		grid-column: 1;
+	}
+
+	.header-a-inicio {
+		grid-column: 2;
+	}
+
+	.header-a-usos {
+		grid-column: 3;
+		visibility: visible;
+	}
+
+	.header-a-contacto {
+		grid-column: 4;
+	}
+	
+	
+}
+
+
+
+
+
+
