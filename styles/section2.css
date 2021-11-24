@@ -1,0 +1,68 @@
+/* Mobile */
+
+.h2-ventajas {
+	color: black;
+	text-align: center;
+	margin: 20px 0;
+	font-weight: 400;
+	font-size: 12;
+}
+
+.grid-container-ventajas {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.box-ventajas {
+	background-color: #00913C;
+	font-size: 20px;
+	padding: 20px;
+	margin: 25px 0;
+	border-radius: 25px;
+	display: flex;
+
+	
+}
+
+.box-ventajas p {
+	color: white;
+	margin: auto;
+}
+
+/* Desktop */
+
+@media(min-width: 1024px) {
+	.grid-container-ventanas {
+		margin: 80%;
+	}
+
+	.container-h2-ventajas {
+		
+		background-color: #FBF117;
+		border-radius: 0 25px 25px 0;
+		width: 60%;
+	}
+
+	.h2-ventajas {
+		font-size: 66px;
+
+	}
+	.grid-ventajas {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		column-gap: 70px;
+	}
+
+	.box-ventajas {
+		background-color: white;
+		border: solid 3px;
+		border-color: #00913C;
+		padding: 30px;
+	}
+
+	.box-ventajas p {
+		color: black;
+		font-size: 30px;
+	}
+
+}
