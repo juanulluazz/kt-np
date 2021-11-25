@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
 
 	<link rel="stylesheet" href="./styles/global.css">
 	<link rel="stylesheet" href="./styles/sections.css">
@@ -90,29 +90,40 @@
 		
 		<section>
 			<div class="container-form">
-				<div class="form-col-1"><p class="form-p">Contamos con trayectoria y experiencia en el mercado para satisfacer las necesidades de aislamiento de nuestros clientes.</p>
-
-					<h3>Hacé tu cotización</h3>
+				<div class="container-form-p">
+				<p class="form-p">Contamos con trayectoria y experiencia en el mercado para satisfacer las necesidades de aislamiento de nuestros clientes.</p>
+				</div>
+				<div class="container-col">
+					<div class="form-col-1">
+				<h3>Hacé tu cotización</h3>
 					<p class="p-consulta">Envianos tu consulta o pedido de presupuesto a nuestro WhatsApp o completá el formulario y te responderemos a la brevedad.</p>
 
 				</div>
 				<div class="form-col-2">
 					
 					<form action="">
-
+						<div class="form-sup">
+							<div class="form-side">
 						<label for="nombre">Tu nombre:</label>
 						<input type="text" placeholder="Tu nombre" id="nombre" name="nombre"/>
+							</div>
+							<div class="form-side">
 						<label for="telefono">Teléfono:</label>
 						<input type="number" placeholder="Teléfono" id="telefono" name="telefono"/>
-						<label for="consulta">Tu consulta:|</label>
-<textarea id="consulta" name="consulta" cols="30" rows="10" placeholder="Consulta"></textarea>
+							</div>
+							</div>
+						<label for="consulta">Tu consulta:</label>
 
+<textarea id="consulta" name="consulta" cols="30" rows="10" placeholder="Consulta"></textarea>
+<div class="container-button">
 <button class="submit" type="submit">Envía tu mensaje</button>
+</div>
 					</form>
 
 
 
 				</div>
+			</div>
 
 			</div>
 		</section>
