@@ -97,7 +97,9 @@ btn7.onclick = () => {
 
 }
 
-
+window.onload = () => {
+	btn1.click();
+}
 
 
 

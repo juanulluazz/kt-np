@@ -30,8 +30,8 @@
 	justify-content: center;
 }
 
-.contenedor-btn button {
-	border-style: solid 2px;
+.contenedor-btn a {
+	border: solid 2px;
 	border-color: #fbf117;
 	background-color: #00913C;
 	color: white;
@@ -41,6 +41,8 @@
 	font-size: 24px;
 	font-weight: 700;
 	padding: 10px;
+	text-align: center;
+	cursor: pointer;
 }
 
 .main-inferior {
