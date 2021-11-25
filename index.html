@@ -6,6 +6,9 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+
 
 	<link rel="stylesheet" href="./styles/global.css">
 	<link rel="stylesheet" href="./styles/sections.css">
@@ -37,7 +40,7 @@
 						<div class="contenedor-h2">
 							<h2>Aisla tus ambientes de las bajas y altas temperaturas con el mejor sistema que existe en el mercado.</h2> </div>
 							<div class="contenedor-btn">
-								<button>Pedí tu presupuesto</button>
+								<button class="animate__animated animate__fadeInDown">Pedí tu presupuesto</button>
 							</div>
 						</div>
 							
@@ -60,7 +63,7 @@
 			
 
 			
-				<div class="container-h2-ventajas">
+				<div class="container-h2-ventajas  animate__animate animate__bounceInLeft">
 					<h2 class="h2-ventajas">&#8594<span> Ventajas del Poliuretano</span></h2></div>
 <div class="grid-container-ventajas">
 				<div class="grid-ventajas">
@@ -113,7 +116,7 @@
 				</div>
 				<div class="form-col-2">
 					
-					<form action="">
+					<form id="formulario" action="">
 						<div class="form-sup">
 							<div class="form-side">
 						<label for="nombre">Tu nombre:</label>
@@ -128,7 +131,7 @@
 
 <textarea id="consulta" name="consulta" cols="30" rows="10" placeholder="Consulta"></textarea>
 <div class="container-button">
-<button class="submit" type="submit">Envía tu mensaje</button>
+<button id= "btn-submit" class="submit" type="submit">Envía tu mensaje</button>
 </div>
 					</form>
 
@@ -202,5 +205,6 @@
 
 
 <script src="./js/seleccionImg.js"></script>
+<script src="./js/validacion.js"></script>
 </body>
 </html>

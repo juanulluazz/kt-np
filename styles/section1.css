@@ -115,9 +115,9 @@
 		border: solid 2px;
 		border-color: black;
 		border-radius: 23px;
-		width: 60%;
+		width: 25vw;
 		height: 0;
-		padding-top: 60%;
+		padding-top: 25vw;
 	}
 
 	.img-adelante {
@@ -130,9 +130,9 @@
 		border: solid 2px;
 		border-color: black;
 		border-radius: 23px;
-		width: 60%;
+		width: 25vw;
 		height: 0;
-		padding-top: 60%;
+		padding-top: 25vw;
 	}
 
 	.contenedor-btn {
@@ -162,5 +162,20 @@
 		font-size: 36px;
 		line-height: 54px;
 	}
+
+}
+
+/* MAX DK */
+@media (min-width: 1800px) {
+	.img-adelante {
+	display: none;
+		
+}
+
+.img-atras {
+	position: static;
+	
+	margin: 40px auto;
+}
 
 }
