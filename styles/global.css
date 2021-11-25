@@ -28,4 +28,10 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
+ul {
+	padding-left: 0;
+}
 
+li {
+	list-style: none;
+}

@@ -1,0 +1,38 @@
+.bottom-container {
+	background-color: #00913c;
+}
+
+.bottom__margin {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.bottom__margin li {
+	text-decoration: underline #FBF117;
+	text-decoration-thickness: 1px;
+	line-height: 2;
+	
+}
+
+.p-mejor {
+	padding-top: 30px;
+
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.p-mejor span {
+	font-weight: 700;
+	color: #fbf117;
+
+}
+
+.p-comunicate {
+
+
+	font-size: 18px;
+	font-weight: 400;
+
+}
+
+
