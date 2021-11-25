@@ -141,14 +141,26 @@
 		margin-bottom: 70px;
 
 	}
+	
+
+	.main-inferior {
+		height: auto;
+		padding: 40px 0 40px 0;
+	}
 
 	.contenedor-h2 {
 		display: flex;
 		justify-content: right;
 		margin-right: 0;
 	}
-	.contenedor-btn button {
-	
+
+	.contenedor-p {
+		width: 50%;
+	}
+
+	.contenedor-p p {
+		font-size: 36px;
+		line-height: 54px;
 	}
 
 }
