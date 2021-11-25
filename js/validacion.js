@@ -61,6 +61,8 @@ const intentarSubmit = (event) => {
 	} else {
 		error.style.color = "green"
 		error.innerHTML = "Enviando consulta..."
+		submit.style.backgroundColor = "#00913c";
+		submit.style.color = "white";
 		setTimeout(function() {form.submit()}, 2000)
 		
 	}

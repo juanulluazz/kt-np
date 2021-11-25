@@ -42,15 +42,21 @@
 /* Desktop */
 
 @media(min-width: 1024px) {
-	
 
+
+	@keyframes asomo {
+  from {left: -90px}
+  to {left:  0}
+}
 
 	.grid-container-ventanas {
 		margin: 80%;
 	}
 
 	.container-h2-ventajas {
-		
+
+		animation-name: "asomo";
+		animation-duration: 5s;
 		background-color: #FBF117;
 		margin: 40px 0 0; 
 		border-radius: 0 30px 30px 0;
