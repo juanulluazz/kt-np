@@ -1,3 +1,5 @@
+/* mobile */
+
 .main-superior {
 	
 	background-image: url("../img/main-sup-bg.jpeg");
@@ -68,4 +70,85 @@
 .contenedor-p p span {
 	color: #fbf117;
 	font-weight: bold;
+}
+
+/* desktop */
+
+@media (min-width: 1024px) {
+	
+	.main-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		width: 85%;
+		margin: 0 auto;
+	}
+		
+	.main-superior {
+		background-image: url("../img/main-sup-bg-dk.jpg");
+		background-position: center;
+	}
+
+	.contenedor-h2 {
+		height: auto;
+	}
+
+	.contenedor-btn {
+		height: auto;
+	}
+
+	.contenedor-h2 h2 {
+		color: black;
+		font-size: 48px;
+		line-height: 72px;
+	}
+	
+	.side-right {
+		position: relative;
+	}
+
+	.img-atras {
+		margin-top: 40px;
+		position: absolute;
+		right: 0;
+		background-image: url("../img/atras.jpg");
+		background-size: cover;
+		border: solid 2px;
+		border-color: black;
+		border-radius: 23px;
+		width: 60%;
+		height: 0;
+		padding-top: 60%;
+	}
+
+	.img-adelante {
+		margin-top: 40px;
+		position: absolute;
+		left: 15%;
+		top: 15%;	
+		background-image: url("../img/adelante.jpg");
+		background-size: cover;
+		border: solid 2px;
+		border-color: black;
+		border-radius: 23px;
+		width: 60%;
+		height: 0;
+		padding-top: 60%;
+	}
+
+	.contenedor-btn {
+		display: flex;
+		justify-content: right;
+		margin-bottom: 70px;
+
+	}
+
+	.contenedor-h2 {
+		display: flex;
+		justify-content: right;
+		margin-right: 0;
+	}
+	.contenedor-btn button {
+	
+	}
+
 }
