@@ -63,6 +63,7 @@ form p {
 	padding: 0;
 	text-align: center;
 	font-weight: 700;
+	display: inline;
 }
 
 /* Desktop */
@@ -118,4 +119,9 @@ form p {
 	.submit {
 		width: 60%;
 	}
+}
+
+.wsp {
+	vertical-align: middle;
+	margin-right: 3px;
 }

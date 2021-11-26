@@ -82,10 +82,14 @@
 
 .bottom-container ul li {
 	font-size: 27px;
+	display: inline;
 }
+
+
 
 .bottom-container ul img {
 	width: 35px;
+	vertical-align: middle;
 }
 
 }
