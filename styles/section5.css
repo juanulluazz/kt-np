@@ -35,6 +35,16 @@
 
 }
 
+.bottom-container ul {
+	margin: 0;
+	padding: 0 0 30px 0;
+
+}
+
+.bottom-container ul img {
+	width: 18px;
+}
+
 /* Desktop */
 
 @media (min-width: 1024px) {
@@ -65,6 +75,7 @@
 
 .bottom-container ul {
 	margin: 0 auto;
+	margin-bottom: 0;
 	display: flex;
 	justify-content: space-between;
 }
@@ -73,5 +84,8 @@
 	font-size: 27px;
 }
 
+.bottom-container ul img {
+	width: 35px;
+}
 
 }

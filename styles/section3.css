@@ -51,11 +51,12 @@ margin-bottom: 0;
 	
 }
 
-.li-uso button:focus {
+/*
+.li-uso button:focus{
 	background-color: #fbf117;
 	color: #00913c;
 }
-
+*/
 .container-usos-col-2 {
 	background-color: #fbf117;
 	padding: 50px 0;
@@ -109,3 +110,18 @@ margin-bottom: 0;
 
 
 }
+
+
+/* Animación */
+
+@keyframes cambio {
+  from {background-color: #00913c; color: white;}
+  to {background-color: #fbf117; color: #00913c}
+}
+
+.encendido {
+	animation-name: cambio;
+	animation-duration: 0.2s;
+}
+
+

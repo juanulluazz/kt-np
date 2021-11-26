@@ -68,33 +68,44 @@ btn6.innerHTML = uso6.text;
 btn7.innerHTML = uso7.text;
 
 
+//Estado de botones;
+
+const allBotones = [btn1, btn2, btn3, btn4, btn5, btn6, btn7];
+const colorBoton = (botonEspecial) => {
+	allBotones.map((boton) => {boton.style.backgroundColor = "#00913c" })
+	allBotones.map((boton) => {boton.style.color = "white" })
+	botonEspecial.style.backgroundColor = "#fbf117";
+	botonEspecial.style.color = "#00913c";
+}
+
 btn1.onclick = () => { 
 	divImagen.style.backgroundImage = `url("${directorio}${uso1.img}")`;
-
+	colorBoton(btn1);	
+	
 }
 btn2.onclick = () => { 
 	divImagen.style.backgroundImage = `url("${directorio}${uso2.img}")`;
-
+	colorBoton(btn2)
 }
 btn3.onclick = () => { 
 	divImagen.style.backgroundImage = `url("${directorio}${uso3.img}")`;
-
+	colorBoton(btn3)
 }
 btn4.onclick = () => { 
 	divImagen.style.backgroundImage = `url("${directorio}${uso4.img}")`;
-
+	colorBoton(btn4)
 }
 btn5.onclick = () => { 
 	divImagen.style.backgroundImage = `url("${directorio}${uso5.img}")`;
-
+	colorBoton(btn5)
 }
 btn6.onclick = () => { 
 	divImagen.style.backgroundImage = `url("${directorio}${uso6.img}")`;
-
+	colorBoton(btn6)
 }
 btn7.onclick = () => { 
 	divImagen.style.backgroundImage = `url("${directorio}${uso7.img}")`;
-
+	colorBoton(btn7)
 }
 
 window.onload = () => {
