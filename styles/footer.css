@@ -26,6 +26,10 @@ footer p a {
 	color: #426184;
 }
 
+footer p a img {
+	width: 20px;
+	margin-top: 4px;
+}
 /* Mobile */
 
 @media (max-width: 1023px) {
