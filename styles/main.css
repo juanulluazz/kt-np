@@ -2,7 +2,7 @@
 
 .main-superior {
 	
-	background-image: url("../img/main-sup-bg.jpeg");
+	/*background-image: url("../img/main-sup-bg.jpeg");*/
 	background-size: cover;
 
 }
@@ -86,7 +86,7 @@
 	}
 		
 	.main-superior {
-		background-image: url("../img/main-sup-bg-dk.jpg");
+		/*background-image: url("../img/main-sup-bg-dk.jpg");*/
 		background-position: center;
 	}
 

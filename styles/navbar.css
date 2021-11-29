@@ -35,6 +35,10 @@ header {
 
 }
 
+.header-container a:hover {
+	font-weight: bold;
+}
+
 
 /* Distribución resolución telefono */
 
